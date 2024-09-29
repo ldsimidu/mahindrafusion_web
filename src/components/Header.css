@@ -1,0 +1,37 @@
+header {
+    position: relative;
+    overflow: hidden; /* Garante que o vídeo não extrapole o contêiner */
+  }
+  
+  .video-container {
+    position: relative;
+  }
+  
+  video {
+    width: 100%; /* Faz o vídeo ocupar toda a largura */
+    height: auto; /* Mantém a proporção */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Escurece o vídeo */
+  }
+  
+  .header-content {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização */
+    text-align: center;
+    color: #ffffff; /* Texto branco */
+  }
+  
+  .logo-container img {
+    max-width: 100%; /* Garante que o logotipo não extrapole o contêiner */
+    height: auto; /* Mantém a proporção do logotipo */
+  }
+  

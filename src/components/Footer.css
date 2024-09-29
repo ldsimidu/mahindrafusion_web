@@ -1,0 +1,23 @@
+.footer {
+    padding: 20px 0;
+    background-color: #343a40; /* Cor de fundo escura */
+    color: #ffffff; /* Texto branco */
+  }
+  
+  .footer h5 {
+    font-weight: bold; /* Destaca o título */
+  }
+  
+  .footer a {
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease; /* Efeito de transição ao passar o mouse */
+  }
+  
+  .footer a:hover {
+    color: #ffc107; /* Cor ao passar o mouse (amarelo) */
+  }
+  
+  .footer p {
+    margin: 10px 0; /* Margem para parágrafos */
+  }
+  

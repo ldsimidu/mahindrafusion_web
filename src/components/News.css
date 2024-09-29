@@ -1,0 +1,33 @@
+.spacing {
+    padding: 20px 0; /* Espaçamento superior e inferior */
+  }
+  
+  .news-item {
+    border: 1px solid #e0e0e0; /* Borda leve para as notícias */
+    border-radius: 5px; /* Arredondar bordas */
+    transition: transform 0.3s; /* Animação ao passar o mouse */
+  }
+  
+  .news-item:hover {
+    transform: scale(1.05); /* Aumenta o item ao passar o mouse */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Tamanho da fonte para o título */
+    font-weight: bold; /* Deixa o título mais destacado */
+  }
+  
+  .secondary-title {
+    color: #6c757d; /* Cor mais suave para títulos secundários */
+    font-size: 1rem; /* Tamanho da fonte para o título secundário */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Cor do botão */
+    border: none; /* Remove borda */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  }
+  

@@ -1,0 +1,28 @@
+.spacing {
+    padding: 20px 0; /* Espaçamento superior e inferior */
+  }
+  
+  .card {
+    border: 1px solid #e0e0e0; /* Borda leve para os cards */
+    border-radius: 5px; /* Arredondar bordas */
+    transition: transform 0.3s; /* Animação ao passar o mouse */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Aumenta o card ao passar o mouse */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Tamanho da fonte para o título */
+    font-weight: bold; /* Título em negrito */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Cor do botão */
+    border: none; /* Remove borda */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  }
+  
