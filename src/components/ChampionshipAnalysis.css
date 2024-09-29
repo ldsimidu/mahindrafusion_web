@@ -1,0 +1,36 @@
+/* ChampionshipAnalysis.css */
+
+/* Mobile First */
+.analysis {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .analysis h4 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  .analysis p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Tablets and up */
+  @media (min-width: 768px) {
+    .analysis {
+      padding: 40px;
+    }
+  
+    .analysis h4 {
+      font-size: 1.75rem;
+    }
+  
+    .analysis p {
+      font-size: 1.125rem;
+    }
+  }
+  
