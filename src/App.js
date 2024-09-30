@@ -1,24 +1,20 @@
 import React from 'react';
-import Header from './components/Header';
 import './App.css';
-import News from './components/News';
-import Results from './components/Results';
-import ChampionshipAnalysis from './components/ChampionshipAnalysis';
-import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home.js';
+import Fusion from './components/Fusion';
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <News/>
-        <Results />
-        <ChampionshipAnalysis />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='Fusion' element={<Fusion />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

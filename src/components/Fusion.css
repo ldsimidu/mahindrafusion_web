@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+#footer{
+    margin-top: 8%;
+}
+
+.main__content {
+    padding-top: 5%;
+    background-color: #1b1b1b;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.video-stream video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 4; 
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    z-index: 5;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+
+.card-img-top {
+    height:100%;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-family: 'Staatliches', sans-serif;
+    color: #00d1b2;
+}
+
+.btn-primary {
+    background-color: #00d1b2;
+    border: none;
+    align-self: flex-start;
+    z-index: 5;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
+}
+
+.col-md-7 .card {
+    height: 100%; 
+}
+
+.col-md-7 .card img,
+.col-md-7 .video-stream video {
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.col-md-5 .card {
+    height: 317px !important;
+}
+
+.col-md-5 .card img {
+    height: 100%; 
+    object-fit: cover;
+}
+
+.btn-primary {
+    font-size: 0.8rem; 
+    padding: 5px 10px; 
+}
+
+.head-mahindra{
+    margin-top: 3%;
+}
+
+.streams a {
+    color: inherit;
+    text-decoration: none; 
+}
+
+.streams a:hover {
+    color: inherit; 
+}
