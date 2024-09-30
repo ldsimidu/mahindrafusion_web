@@ -1,36 +1,147 @@
-/* ChampionshipAnalysis.css */
+/* Análise do Campeonato */
+.last-review__content {
+  background-color: #2c2c2c; /* Tom mais escuro */
+  color: #ffffff; /* Branco puro */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px; /* Bordas mais arredondadas */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Sombra mais suave */
+}
 
-/* Mobile First */
-.analysis {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Títulos */
+.last-review__content h2 {
+  font-size: 2rem; /* Tamanho do texto para h2 */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Letras maiúsculas */
+  letter-spacing: 1.5px; /* Espaçamento entre letras */
+}
+
+/* Tabela */
+.table {
+  margin-bottom: 0;
+  border-collapse: collapse; /* Para uma tabela mais limpa */
+}
+
+/* Ajustes nos cabeçalhos e células */
+.table th,
+.table td {
+  vertical-align: middle;
+  color: #ccc; /* Tom mais claro para contraste */
+  padding: 1rem; /* Espaçamento interno com rem */
+  border: 1px solid #444; /* Bordas sutis */
+}
+
+.table th {
+  background-color: #333; /* Fundo dos cabeçalhos */
+  color: #ffffff; /* Texto branco para cabeçalhos */
+}
+
+.table td {
+  font-size: 1rem; /* Tamanho da fonte padrão */
+}
+
+/* Imagens */
+.table .driver-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%; /* Imagens circulares */
+}
+
+/* Títulos de jogadores */
+.player-title {
+  font-size: 1rem; /* Tamanho da fonte padrão */
+  color: #ffffff; /* Branco puro */
+  display: block;
+  text-align: center;
+  margin-top: 8px; /* Espaçamento superior */
+}
+
+/* Nome principal */
+.main-name {
+  font-size: 1.125rem; /* Tamanho do texto para nome */
+  font-weight: bold;
+}
+
+/* Logos */
+.team-logo,
+.flag {
+  width: 30px; /* Tamanho padrão para logo e bandeira */
+}
+
+.flag {
+  margin: 0 4px; /* Mais espaçamento para a bandeira */
+}
+
+/* Hover effects */
+.table-responsive:hover .table-hover-effect {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de sombra no hover */
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada no hover */
+}
+
+/* Media Queries */
+
+/* Small devices */
+@media (min-width: 576px) {
+  .last-review__content h2 {
+    font-size: 2.25rem; /* Aumenta o tamanho do título */
   }
-  
-  .analysis h4 {
-    font-size: 1.25rem;
-    margin-bottom: 15px;
+
+  .table th {
+    font-size: 1.125rem; /* Aumenta o tamanho da fonte nos cabeçalhos */
   }
-  
-  .analysis p {
-    font-size: 1rem;
-    line-height: 1.5;
+
+  .table td {
+    font-size: 1.125rem; /* Aumenta o tamanho da fonte nas células */
   }
-  
-  /* Tablets and up */
-  @media (min-width: 768px) {
-    .analysis {
-      padding: 40px;
-    }
-  
-    .analysis h4 {
-      font-size: 1.75rem;
-    }
-  
-    .analysis p {
-      font-size: 1.125rem;
-    }
+
+  .team-logo,
+  .flag {
+    width: 40px; /* Aumenta o tamanho para dispositivos pequenos */
   }
-  
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+  .last-review__content h2 {
+    font-size: 2.5rem; /* Aumenta ainda mais o tamanho do título */
+  }
+
+  .table th {
+    font-size: 1.25rem; /* Aumenta o tamanho da fonte nos cabeçalhos */
+  }
+
+  .table td {
+    font-size: 1.25rem; /* Aumenta o tamanho da fonte nas células */
+  }
+
+  .team-logo,
+  .flag {
+    width: 50px; /* Aumenta o tamanho para dispositivos médios */
+  }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+  .last-review__content h2 {
+    font-size: 2.75rem; /* Maior tamanho do título */
+  }
+
+  .table th {
+    font-size: 1.5rem; /* Maior tamanho da fonte nos cabeçalhos */
+  }
+
+  .table td {
+    font-size: 1.5rem; /* Maior tamanho da fonte nas células */
+  }
+
+  .team-logo,
+  .flag {
+    width: 60px; /* Aumenta o tamanho para dispositivos grandes */
+  }
+
+  .player-title {
+    font-size: 1.125rem; /* Aumenta o tamanho do título do jogador */
+  }
+}

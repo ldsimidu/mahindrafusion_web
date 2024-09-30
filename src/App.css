@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  color: white; /* Garantindo que o texto seja branco */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  transition: transform 0.3s ease; /* Adicionando uma transição para um efeito suave */
+}
+
+.App-logo:hover {
+  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(90deg, #00c3ff, #c628ff); /* Gradiente para combinar com outros estilos */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +28,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px; /* Adicionando preenchimento para melhor espaçamento */
 }
 
 .App-link {
   color: #61dafb;
+  transition: color 0.3s ease; /* Transição para suavizar a mudança de cor */
+}
+
+.App-link:hover {
+  color: #0056b3; /* Mudando a cor ao passar o mouse */
 }
 
 @keyframes App-logo-spin {

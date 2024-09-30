@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import './App.css';
 import News from './components/News';
 import Results from './components/Results';
 import ChampionshipAnalysis from './components/ChampionshipAnalysis';
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <News />
+        <News/>
         <Results />
         <ChampionshipAnalysis />
       </main>

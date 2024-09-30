@@ -1,33 +1,107 @@
-.spacing {
-    padding: 20px 0; /* Espaçamento superior e inferior */
+/* Mobile-first approach */
+
+/* Destaques and Últimos Resultados */
+.red-div {
+  background-color: #ff3333;
+  text-align: center;
+  padding: 20px;
+}
+
+.red-div h1 {
+  color: white;
+  font-size: 24px;
+}
+
+/* News Cards */
+.news-item {
+  transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.secondary-title {
+  font-size: 14px;
+  color: #333;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Ver Mais Button */
+.btn-ver-mais {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Últimos Resultados */
+.last-results__content h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Media Queries */
+
+/* Small devices */
+@media (min-width: 576px) {
+  .red-div h1 {
+    font-size: 28px;
   }
-  
-  .news-item {
-    border: 1px solid #e0e0e0; /* Borda leve para as notícias */
-    border-radius: 5px; /* Arredondar bordas */
-    transition: transform 0.3s; /* Animação ao passar o mouse */
+
+  .card-img-top {
+    height: 250px;
   }
-  
-  .news-item:hover {
-    transform: scale(1.05); /* Aumenta o item ao passar o mouse */
-  }
-  
+
   .card-title {
-    font-size: 1.25rem; /* Tamanho da fonte para o título */
-    font-weight: bold; /* Deixa o título mais destacado */
+    font-size: 20px;
   }
-  
-  .secondary-title {
-    color: #6c757d; /* Cor mais suave para títulos secundários */
-    font-size: 1rem; /* Tamanho da fonte para o título secundário */
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+  .red-div h1 {
+    font-size: 32px;
   }
-  
-  .btn-primary {
-    background-color: #007bff; /* Cor do botão */
-    border: none; /* Remove borda */
+
+  .card-img-top {
+    height: 300px;
   }
-  
-  .btn-primary:hover {
-    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+  .red-div h1 {
+    font-size: 36px;
   }
-  
+
+  .card-img-top {
+    height: 350px;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+}
