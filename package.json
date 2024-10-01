@@ -45,6 +45,4 @@
     "gh-pages": "^6.1.1",
     "webpack-dev-server": "^5.1.0"
   }
-  
 }
-
