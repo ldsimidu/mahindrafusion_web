@@ -2,10 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Fusion.css'; 
 import Footer from './Footer'; 
+import Header from './Header';
 
 const Fusion = () => {
     return (
         <div>
+            <Header />
             <header className="head-mahindra bg-dark text-white text-center py-4">
                 <h1 className="display-5">Acompanhe ao vivo as corridas de Fórmula E.</h1>
                 <p className="m-text">Aqui você consegue se manter completamente atualizado dos maiores campeonatos da Fórmula E.</p>

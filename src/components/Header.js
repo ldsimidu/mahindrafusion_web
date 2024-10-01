@@ -22,31 +22,18 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-              <Link className="nav-link" to='/'>Home</Link>
+                <Link className="nav-link" to='/'>Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='Fusion'>Fusion</Link>
+                <Link className="nav-link" to='/Fusion'>Fusion</Link> 
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='Conta'>Conta</Link>
+                <Link className="nav-link" to='/Conta'>Conta</Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-      {/* Video and Logo */}
-      <div className="video-container">
-        <video autoPlay muted loop>
-          <source src="./Assets/Video/fe-header-video.mp4" type="video/mp4" />
-        </video>
-        <div className="overlay"></div>
-      </div>
-      <div className="header-content">
-        <div className="logo-container">
-          <img src="./Assets/Img/fe-logo.png" alt="Formula E Logo" />
-        </div>
-      </div>
     </header>
   );
 };

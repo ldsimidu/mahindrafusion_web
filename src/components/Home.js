@@ -5,12 +5,14 @@ import News from './News';
 import Results from './Results'; 
 import ChampionshipAnalysis from './ChampionshipAnalysis'; 
 import Footer from './Footer'; 
+import VideoLogo from './VideoLogo';
 import './Home.css'; 
 
 function Home() {
   return (
     <div className="Home">
       <Header />
+      <VideoLogo />
       <main>
         <News />
         <Results />
