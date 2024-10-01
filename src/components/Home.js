@@ -1,11 +1,11 @@
 // src/components/Home.js
 import React from 'react';
-import Header from './Header'; // Certifique-se de que o caminho está correto
-import News from './News'; // Certifique-se de que o caminho está correto
-import Results from './Results'; // Certifique-se de que o caminho está correto
-import ChampionshipAnalysis from './ChampionshipAnalysis'; // Certifique-se de que o caminho está correto
-import Footer from './Footer'; // Certifique-se de que o caminho está correto
-import './Home.css'; // Se você tiver um CSS específico para a página inicial
+import Header from './Header'; 
+import News from './News';
+import Results from './Results'; 
+import ChampionshipAnalysis from './ChampionshipAnalysis'; 
+import Footer from './Footer'; 
+import './Home.css'; 
 
 function Home() {
   return (

@@ -1,6 +1,6 @@
 header {
     position: relative;
-    overflow: hidden; /* Garante que o vídeo não extrapole o contêiner */
+    overflow: hidden; 
   }
   
   .video-container {
@@ -8,8 +8,8 @@ header {
   }
   
   video {
-    width: 100%; /* Faz o vídeo ocupar toda a largura */
-    height: auto; /* Mantém a proporção */
+    width: 100%;
+    height: auto; 
   }
   
   .overlay {
@@ -18,21 +18,21 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Escurece o vídeo */
+    background-color: rgba(0, 0, 0, 0.5); 
   }
   
   .header-content {
     position: absolute;
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta para centralização */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     text-align: center;
-    color: #ffffff; /* Texto branco */
+    color: #ffffff; 
   }
   
   .logo-container img {
-    max-width: 100%; /* Garante que o logotipo não extrapole o contêiner */
-    height: auto; /* Mantém a proporção do logotipo */
+    max-width: 100%;
+    height: auto; 
   }
   * {
     margin: 0;

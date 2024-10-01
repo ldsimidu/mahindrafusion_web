@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      {/* Navbar */}
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">Mahindra Fusion</a>
@@ -29,7 +28,7 @@ const Header = () => {
                 <Link className="nav-link" to='Fusion'>Fusion</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/assets/pages/Usuário/Perfil.html">Conta</a>
+                <Link className="nav-link" to='Conta'>Conta</Link>
               </li>
             </ul>
           </div>

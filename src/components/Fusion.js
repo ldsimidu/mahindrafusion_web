@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Fusion.css'; // Supondo que você crie um arquivo CSS específico para o estilo da página
+import './Fusion.css'; 
+import Footer from './Footer'; 
 
 const Fusion = () => {
     return (
-        <>
+        <div>
             <header className="head-mahindra bg-dark text-white text-center py-4">
                 <h1 className="display-5">Acompanhe ao vivo as corridas de Fórmula E.</h1>
                 <p className="m-text">Aqui você consegue se manter completamente atualizado dos maiores campeonatos da Fórmula E.</p>
@@ -21,7 +22,7 @@ const Fusion = () => {
                             <div className="card-img-overlay">
                                 <div className="video-stream">
                                     <video autoPlay muted loop>
-                                        <source src="../video/Season10IsHERE.mp4" type="video/mp4" />
+                                        <source src="./Assets/Video/Season 10 Is HERE _ Formula E Opening Titles.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                                 <h5 className="card-title display-4">Transmissão Principal</h5>
@@ -34,7 +35,7 @@ const Fusion = () => {
                         <div className="row">
                             <div className="col-md-12 mb-2">
                                 <div className="card bg-dark text-white h-100">
-                                    <img src="../images/stream/img_formula_e.jpg" className="card-img" alt="Grande Final"/>
+                                    <img src="./Assets/Img/GrandeFinal.jpg" className="card-img" alt="Grande Final"/>
                                     <div className="card-img-overlay">
                                         <h5 className="card-title">Grande Final</h5>
                                         <p className="card-text">Assista à Grande Final.</p>
@@ -43,7 +44,7 @@ const Fusion = () => {
                             </div>
                             <div className="col-md-12 mb-3">
                                 <div className="card bg-dark text-white h-100">
-                                    <img src="../images/stream/ingresso_formula_e.jpg" className="card-img" alt="Novos Horizontes"/>
+                                    <img src="./Assets/Img/ingresso formula e.jpg" className="card-img" alt="Novos Horizontes"/>
                                     <div className="card-img-overlay">
                                         <h5 className="card-title">Garanta seu ingresso</h5>
                                         <p className="card-text">Não perca a chance de viver a adrenalina das pistas ao vivo!</p>
@@ -57,7 +58,7 @@ const Fusion = () => {
                 <div className="row">
                     <div className="col-md-4 mb-3">
                         <div className="card bg-dark text-white h-100">
-                            <img src="../images/stream/streamer1.jpg" className="card-img-top" alt="Stream 1"/>
+                            <img src="./Assets/Img/STREAMER 1.jpg" className="card-img-top" alt="Stream 1"/>
                             <div className="card-body">
                                 <h5 className="card-title">ElectroDrift</h5>
                                 <p className="card-text">Competição de alta velocidade.</p>
@@ -67,7 +68,7 @@ const Fusion = () => {
                     </div>
                     <div className="col-md-4 mb-3">
                         <div className="card bg-dark text-white h-100">
-                            <img src="../images/stream/streamer2.jpg" className="card-img-top" alt="Stream 2"/>
+                            <img src="./Assets/Img/STREAMER 2.jpg" className="card-img-top" alt="Stream 2"/>
                             <div className="card-body">
                                 <h5 className="card-title">E-RacerX</h5>
                                 <p className="card-text">Transmitindo uma nova corrida.</p>
@@ -77,7 +78,7 @@ const Fusion = () => {
                     </div>
                     <div className="col-md-4 mb-3">
                         <div className="card bg-dark text-white h-100">
-                            <img src="../images/stream/streamer3.jpg" className="card-img-top" alt="Stream 3"/>
+                            <img src="./Assets/Img/STREAMER 3.jpg" className="card-img-top" alt="Stream 3"/>
                             <div className="card-body">
                                 <h5 className="card-title">FormulaE_Fanatic</h5>
                                 <p className="card-text">Cobertura ao vivo da pista.</p>
@@ -87,7 +88,8 @@ const Fusion = () => {
                     </div>
                 </div>
             </main>
-        </>
+            <Footer />
+        </div>
     );
 }
 

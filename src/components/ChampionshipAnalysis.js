@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './ChampionshipAnalysis.css'; // Caso tenha um CSS para estilos adicionais
+import './ChampionshipAnalysis.css'; 
 
 const ChampionshipAnalysis = () => {
   return (

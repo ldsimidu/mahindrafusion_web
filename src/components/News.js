@@ -3,7 +3,6 @@ import React from 'react';
 const NewsAndResults = () => {
   return (
     <div>
-      {/* Destaques Section */}
       <div className="container mt-4">
         <div className="row">
           <div className="col-12 text-center">
@@ -33,13 +32,11 @@ const NewsAndResults = () => {
             </div>
           </div>
 
-          {/* Últimas Notícias */}
           <div className="col-lg-4">
             <h3 className="mb-3">
               <a href="#" className="text-decoration-none">Últimas notícias -</a>
             </h3>
             <div className="row">
-              {/* News Cards */}
               {newsItems.map((item, index) => (
                 <div className="col-6 mb-3" key={index}>
                   <div className={`card news-item ${item.type}`}>
@@ -56,7 +53,6 @@ const NewsAndResults = () => {
               ))}
             </div>
 
-            {/* Ver Mais Button */}
             <div className="text-center mt-3">
               <button className="btn btn-primary btn-ver-mais">
                 Ver Mais
@@ -66,7 +62,6 @@ const NewsAndResults = () => {
         </div>
       </div>
 
-      {/* Últimos Resultados Section */}
       <div className="container mt-4">
         <div className="row">
           <div className="col-12 text-center">
@@ -99,7 +94,6 @@ const NewsAndResults = () => {
   );
 };
 
-// News and Results Data
 const newsItems = [
   {
     image: './Assets/Destaques/outrocarro.png',

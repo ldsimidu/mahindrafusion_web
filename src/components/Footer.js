@@ -1,12 +1,11 @@
 import React from 'react';
-import './Footer.css'; // Certifique-se de incluir a extensão .css
+import './Footer.css'; 
 
 const Footer = () => {
   return (
     <footer className="footer bg-dark text-light mt-4">
       <div className="container">
         <div className="row">
-          {/* Seção Sobre Nós */}
           <div className="col-md-4">
             <h3>Sobre Nós</h3>
             <p>
@@ -15,7 +14,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Links Úteis */}
           <div className="col-md-4">
             <h3>Links Úteis</h3>
             <ul>
@@ -26,7 +24,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Seção de Contato */}
           <div className="col-md-4 text-md-end">
             <h3>Contato</h3>
             <p>Email: contato@exemplo.com</p>
@@ -34,7 +31,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Bottom */}
         <div className="text-center mt-4">
           <p>&copy; 2024 Todos os direitos reservados.</p>
         </div>

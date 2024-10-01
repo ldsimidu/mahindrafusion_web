@@ -1,5 +1,3 @@
-/* Mobile-first approach */
-
 html {
   overflow: scroll;
 }
@@ -18,12 +16,11 @@ body {
   color: white;
 }
 
-/* Destaques and Últimos Resultados */
 .red-div {
   background: linear-gradient(90deg, #00c3ff, #c628ff);
   text-align: center;
   padding: 20px;
-  height: auto; /* Ajustado para um comportamento responsivo */
+  height: auto;
 }
 
 .red-div h1 {
@@ -32,12 +29,11 @@ body {
   margin: 0;
 }
 
-/* News Cards */
 .news-item {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
   overflow: hidden;
-  background-color: #192b3a; /* Cor de fundo ajustada */
+  background-color: #192b3a; 
 }
 
 .news-item:hover {
@@ -67,13 +63,12 @@ body {
   text-overflow: ellipsis;
 }
 
-/* Ver Mais Button */
 .btn-ver-mais {
   display: block;
   margin: 20px auto;
   font-size: 16px;
   padding: 10px 20px;
-  background-color: #007bff; /* Mantendo o esquema de cores */
+  background-color: #007bff; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -84,7 +79,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Últimos Resultados */
 .last-results__content {
   padding: 40px 0;
 }
@@ -105,9 +99,6 @@ body {
   color: #555;
 }
 
-/* Media Queries */
-
-/* Small devices (≥576px) */
 @media (min-width: 576px) {
   .red-div h1 {
       font-size: 28px;
@@ -122,7 +113,6 @@ body {
   }
 }
 
-/* Medium devices (≥768px) */
 @media (min-width: 768px) {
   .red-div h1 {
       font-size: 32px;
@@ -141,7 +131,6 @@ body {
   }
 }
 
-/* Large devices (≥992px) */
 @media (min-width: 992px) {
   .red-div h1 {
       font-size: 36px;
